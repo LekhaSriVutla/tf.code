@@ -3,6 +3,12 @@ variable "aws_region" {
        default     = "eu-west-2"
 }
 
+variable "key_name" { 
+    description = " SSH keys to connect to ec2 instance" 
+    default     =  "ec2-server" 
+}
+
+
 variable "instance_type" { 
     description = "instance type for ec2" 
     default     =  "t2.micro" 

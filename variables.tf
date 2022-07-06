@@ -1,8 +1,6 @@
 variable "aws_region" {
        description = "The AWS region to create things in." 
        default     = "eu-west-2"
-       access_key = "AKIA3CPWXNYN3HI33DMC"
-       secret_key = "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" 
 }
 
 variable "instance_type" { 

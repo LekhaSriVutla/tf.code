@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 #Create security group with firewall rules
-resource "aws_security_group" "security_jenkins_grp" {
+resource "aws_security_group" "security_tf_grp" {
   name        = var.security_group
   description = "my-second-ec2-server"
 

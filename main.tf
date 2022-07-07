@@ -1,3 +1,13 @@
+terraform {
+  cloud {
+    organization = "lekhaSriVutla"
+
+    workspaces {
+      name = "lekha-vutla-app-eu-west-2-dev"
+    }
+  }
+}
+
 provider "aws" {
   region = var.aws_region
 }
